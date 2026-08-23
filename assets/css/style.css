@@ -155,6 +155,21 @@ img {
   background: transparent;
 }
 
+/* TOPのロゴ画像 */
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  overflow: visible;
+}
+
+.kayano-logo {
+  width: min(760px, 55vw);
+  max-width: none;
+  height: auto;
+}
+
 .image-placeholder {
   min-height: 420px;
   display: grid;
@@ -304,5 +319,14 @@ img {
   .image-placeholder,
   .portrait-placeholder {
     min-height: 360px;
+  }
+
+  .hero-image {
+    margin-top: 12px;
+  }
+
+  .kayano-logo {
+    width: min(560px, 94vw);
+    max-width: 100%;
   }
 }
